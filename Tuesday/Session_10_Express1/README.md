@@ -1,4 +1,4 @@
-﻿Creating the Backend for Your Single Page Web App
+Creating the Backend for Your Single Page Web App
 =============
 
 #Objective
@@ -107,11 +107,19 @@ Express makes handling REST requests much easier and hides all the gooey details
 
 Open up the starter solution [**StartProject/BartNOWWebService.sln**](StartProject/BartNOWWebService.sln) in Visual Studio.
 
-When the solution is opened, if you aren't prompted to install dependant packages, under the project in the Solution Explorer, right click on **npm->Install missing npm modules**:
+When the solution is opened, if you aren't prompted to install dependent packages, under the project in the Solution Explorer, right click on **npm->Install missing npm modules**:
 
 ![](ScreenShots/ss1.png)
 
 You need to do this because the packages aren't kept in the git repository and must be downloaded to your local directory.
+
+Add the the **routes** folder to the solution as well. We will need it to hold our route definition javascript files:
+
+![](ScreenShots/ss0.png)
+
+Your project should look like this now:
+
+![](ScreenShots/ss0-1.png)
 
 Now run the starter project and you should see the following output on your console:
 
