@@ -1,4 +1,4 @@
-Creating the Backend for Your Single Page Web App
+Session 6: Creating your web Backend with Node.js
 =============
 
 #Objective
@@ -117,7 +117,7 @@ Add the the **routes** folder to the solution as well. We will need it to hold o
 
 ![](ScreenShots/ss0.png)
 
-Your project should look like this now:
+Your project should look like this now
 
 ![](ScreenShots/ss0-1.png)
 
@@ -133,7 +133,7 @@ Its good for us to test our back-end without needing our web app client. A usefu
 
 #Creating a Route
 
-[Express routes](http://openmymind.net/NodeJS-Module-Exports-And-Organizing-Express-Routes) define how the server 'routes' the request to a particular handler which performs the request operation. In the above REST request example you can think of the route as the **'api/favorites** part of the url. 
+[Express routes](http://www.javascriptatoms.com/2014/01/create-url-route-node-js-express/) define how the server 'routes' the request to a particular handler which performs the request operation. In the above REST request example you can think of the route as the **'api/favorites** part of the url. 
 
 This backend service will have the following routes:
 
@@ -147,7 +147,7 @@ Let's create the first api. In your Visual Studio solution, add a new javascript
 
 ![](ScreenShots/ss5.png)
 
-Node.js uses RequireJS for its module system and **stations.js** will create a new module. We will use the **exports** keyword to define the **get** property of this route which will be a function:
+Node.js uses [RequireJS](http://www.requirejs.org/) for its module system and **stations.js** will create a new module. We will use the **exports** keyword to define the **get** property of this route which will be a function:
 
     
 	//stations.js	
